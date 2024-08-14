@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\eSyaProjects2022\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\wwwroot\\Resources\\ar-EG.json",
+      "PackagePath": "staticwebassets\\Resources\\ar-EG.json"
+    },
+    {
+      "Id": "D:\\Projects\\eSyaProjects2022\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\wwwroot\\Resources\\en-US.json",
+      "PackagePath": "staticwebassets\\Resources\\en-US.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.eSya.ApprovalProcess.WebAPI.props",
+      "PackagePath": "build\\eSya.ApprovalProcess.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.eSya.ApprovalProcess.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\eSya.ApprovalProcess.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.eSya.ApprovalProcess.WebAPI.props",
+      "PackagePath": "buildTransitive\\eSya.ApprovalProcess.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.eSya.ApprovalProcess.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

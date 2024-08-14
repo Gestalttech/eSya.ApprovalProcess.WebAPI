@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "IcacCnEgoUIpRuhcoI4m4A3nwKkr29dXbsbNSVwtTIY=",
+  "Source": "eSya.ApprovalProcess.WebAPI",
+  "BasePath": "_content/eSya.ApprovalProcess.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "eSya.ApprovalProcess.WebAPI\\wwwroot",
+      "Source": "eSya.ApprovalProcess.WebAPI",
+      "ContentRoot": "D:\\Projects\\eSyaProjects2022\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\wwwroot\\",
+      "BasePath": "_content/eSya.ApprovalProcess.WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\eSyaProjects2022\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\wwwroot\\Resources\\ar-EG.json",
+      "SourceId": "eSya.ApprovalProcess.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\eSyaProjects2022\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\wwwroot\\",
+      "BasePath": "_content/eSya.ApprovalProcess.WebAPI",
+      "RelativePath": "Resources/ar-EG.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\ar-EG.json"
+    },
+    {
+      "Identity": "D:\\Projects\\eSyaProjects2022\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\wwwroot\\Resources\\en-US.json",
+      "SourceId": "eSya.ApprovalProcess.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\eSyaProjects2022\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\eSya.ApprovalProcess.WebAPI\\wwwroot\\",
+      "BasePath": "_content/eSya.ApprovalProcess.WebAPI",
+      "RelativePath": "Resources/en-US.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resources\\en-US.json"
+    }
+  ]
+}
