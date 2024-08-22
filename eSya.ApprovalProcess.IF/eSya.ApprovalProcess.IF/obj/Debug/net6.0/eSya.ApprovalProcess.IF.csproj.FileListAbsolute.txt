@@ -8,6 +8,7 @@ D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.IF
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.IF\eSya.ApprovalProcess.IF\obj\Debug\net6.0\eSya.ApprovalProcess.IF.AssemblyInfoInputs.cache
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.IF\eSya.ApprovalProcess.IF\obj\Debug\net6.0\eSya.ApprovalProcess.IF.AssemblyInfo.cs
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.IF\eSya.ApprovalProcess.IF\obj\Debug\net6.0\eSya.ApprovalProcess.IF.csproj.CoreCompileInputs.cache
+D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.IF\eSya.ApprovalProcess.IF\obj\Debug\net6.0\eSya.ApprovalProcess.IF.sourcelink.json
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.IF\eSya.ApprovalProcess.IF\obj\Debug\net6.0\eSya.ApprovalProcess.IF.csproj.CopyComplete
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.IF\eSya.ApprovalProcess.IF\obj\Debug\net6.0\eSya.ApprovalProcess.IF.dll
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.IF\eSya.ApprovalProcess.IF\obj\Debug\net6.0\refint\eSya.ApprovalProcess.IF.dll

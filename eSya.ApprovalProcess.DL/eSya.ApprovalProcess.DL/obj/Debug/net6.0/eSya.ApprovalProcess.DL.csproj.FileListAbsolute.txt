@@ -11,6 +11,7 @@ D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.DL
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.DL\eSya.ApprovalProcess.DL\obj\Debug\net6.0\eSya.ApprovalProcess.DL.AssemblyInfoInputs.cache
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.DL\eSya.ApprovalProcess.DL\obj\Debug\net6.0\eSya.ApprovalProcess.DL.AssemblyInfo.cs
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.DL\eSya.ApprovalProcess.DL\obj\Debug\net6.0\eSya.ApprovalProcess.DL.csproj.CoreCompileInputs.cache
+D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.DL\eSya.ApprovalProcess.DL\obj\Debug\net6.0\eSya.ApprovalProcess.DL.sourcelink.json
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.DL\eSya.ApprovalProcess.DL\obj\Debug\net6.0\eSya.ApprovalProcess.DL.csproj.CopyComplete
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.DL\eSya.ApprovalProcess.DL\obj\Debug\net6.0\eSya.ApprovalProcess.DL.dll
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.DL\eSya.ApprovalProcess.DL\obj\Debug\net6.0\refint\eSya.ApprovalProcess.DL.dll

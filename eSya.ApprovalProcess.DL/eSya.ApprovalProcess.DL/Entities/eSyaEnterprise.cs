@@ -19,7 +19,12 @@ namespace eSya.ApprovalProcess.DL.Entities
         }
 
         public virtual DbSet<GtEcapcd> GtEcapcds { get; set; } = null!;
+        public virtual DbSet<GtEcapvd> GtEcapvds { get; set; } = null!;
+        public virtual DbSet<GtEcapvh> GtEcapvhs { get; set; } = null!;
+        public virtual DbSet<GtEcapvv> GtEcapvvs { get; set; } = null!;
         public virtual DbSet<GtEcbsln> GtEcbslns { get; set; } = null!;
+        public virtual DbSet<GtEcfmfd> GtEcfmfds { get; set; } = null!;
+        public virtual DbSet<GtEcfmpa> GtEcfmpas { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -57,6 +62,65 @@ namespace eSya.ApprovalProcess.DL.Entities
                 entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
 
                 entity.Property(e => e.ShortCode).HasMaxLength(15);
+            });
+
+            modelBuilder.Entity<GtEcapvd>(entity =>
+            {
+                entity.HasKey(e => new { e.BusinessKey, e.FormId, e.ApprovalLevel });
+
+                entity.ToTable("GT_ECAPVD");
+
+                entity.Property(e => e.FormId).HasColumnName("FormID");
+
+                entity.Property(e => e.CreatedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.CreatedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
+            });
+
+            modelBuilder.Entity<GtEcapvh>(entity =>
+            {
+                entity.HasKey(e => new { e.BusinessKey, e.FormId });
+
+                entity.ToTable("GT_ECAPVH");
+
+                entity.Property(e => e.FormId).HasColumnName("FormID");
+
+                entity.Property(e => e.CreatedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.CreatedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
+            });
+
+            modelBuilder.Entity<GtEcapvv>(entity =>
+            {
+                entity.HasKey(e => new { e.BusinessKey, e.FormId, e.ApprovalLevel, e.ValueFrom, e.EffectiveFrom });
+
+                entity.ToTable("GT_ECAPVV");
+
+                entity.Property(e => e.FormId).HasColumnName("FormID");
+
+                entity.Property(e => e.ValueFrom).HasColumnType("numeric(18, 6)");
+
+                entity.Property(e => e.EffectiveFrom).HasColumnType("datetime");
+
+                entity.Property(e => e.CreatedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.CreatedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.EffectiveTill).HasColumnType("datetime");
+
+                entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.ValueTo).HasColumnType("numeric(18, 6)");
             });
 
             modelBuilder.Entity<GtEcbsln>(entity =>
@@ -103,6 +167,62 @@ namespace eSya.ApprovalProcess.DL.Entities
                     .HasDefaultValueSql("((1))");
 
                 entity.Property(e => e.TorealCurrency).HasColumnName("TORealCurrency");
+            });
+
+            modelBuilder.Entity<GtEcfmfd>(entity =>
+            {
+                entity.HasKey(e => e.FormId);
+
+                entity.ToTable("GT_ECFMFD");
+
+                entity.Property(e => e.FormId)
+                    .ValueGeneratedNever()
+                    .HasColumnName("FormID");
+
+                entity.Property(e => e.ControllerName)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.CreatedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.CreatedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.FormCode)
+                    .HasMaxLength(10)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.FormName).HasMaxLength(50);
+
+                entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.ToolTip).HasMaxLength(250);
+            });
+
+            modelBuilder.Entity<GtEcfmpa>(entity =>
+            {
+                entity.HasKey(e => new { e.FormId, e.ParameterId });
+
+                entity.ToTable("GT_ECFMPA");
+
+                entity.Property(e => e.FormId).HasColumnName("FormID");
+
+                entity.Property(e => e.ParameterId).HasColumnName("ParameterID");
+
+                entity.Property(e => e.CreatedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.CreatedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
+
+                entity.HasOne(d => d.Form)
+                    .WithMany(p => p.GtEcfmpas)
+                    .HasForeignKey(d => d.FormId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_GT_ECFMPA_GT_ECFMFD");
             });
 
             OnModelCreatingPartial(modelBuilder);

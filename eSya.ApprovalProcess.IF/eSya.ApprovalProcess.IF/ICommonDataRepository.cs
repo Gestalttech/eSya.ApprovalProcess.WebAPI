@@ -10,5 +10,6 @@ namespace eSya.ApprovalProcess.IF
     public interface ICommonDataRepository
     {
         Task<List<DO_BusinessLocation>> GetBusinessKey();
+        Task<List<DO_ApplicationCodes>> GetApplicationCodesByCodeTypeList(List<int> l_codeType);
     }
 }

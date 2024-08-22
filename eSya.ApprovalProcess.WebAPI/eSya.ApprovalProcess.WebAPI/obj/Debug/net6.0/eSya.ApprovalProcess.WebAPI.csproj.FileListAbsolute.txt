@@ -1,5 +1,6 @@
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\bin\Debug\net6.0\appsettings.Development.json
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\bin\Debug\net6.0\appsettings.json
+D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\bin\Debug\net6.0\eSya.ApprovalProcess.WebAPI.staticwebassets.runtime.json
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\bin\Debug\net6.0\eSya.ApprovalProcess.WebAPI.exe
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\bin\Debug\net6.0\eSya.ApprovalProcess.WebAPI.deps.json
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\bin\Debug\net6.0\eSya.ApprovalProcess.WebAPI.runtimeconfig.json
@@ -262,6 +263,7 @@ D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.We
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\obj\Debug\net6.0\eSya.ApprovalProcess.WebAPI.csproj.CoreCompileInputs.cache
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\obj\Debug\net6.0\eSya.ApprovalProcess.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\obj\Debug\net6.0\eSya.ApprovalProcess.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\obj\Debug\net6.0\eSya.ApprovalProcess.WebAPI.sourcelink.json
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\obj\Debug\net6.0\staticwebassets.build.json
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\obj\Debug\net6.0\staticwebassets.development.json
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.eSya.ApprovalProcess.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
@@ -276,4 +278,3 @@ D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.We
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\obj\Debug\net6.0\eSya.ApprovalProcess.WebAPI.pdb
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\obj\Debug\net6.0\eSya.ApprovalProcess.WebAPI.genruntimeconfig.cache
 D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\obj\Debug\net6.0\ref\eSya.ApprovalProcess.WebAPI.dll
-D:\Projects\eSyaProjects2022\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\eSya.ApprovalProcess.WebAPI\bin\Debug\net6.0\eSya.ApprovalProcess.WebAPI.staticwebassets.runtime.json

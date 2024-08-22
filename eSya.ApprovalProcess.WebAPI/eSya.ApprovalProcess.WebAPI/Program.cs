@@ -48,6 +48,8 @@ builder.Services.AddLocalization();
 
 
 builder.Services.AddScoped<ICommonDataRepository, CommonDataRepository>();
+builder.Services.AddScoped<IProcessRepository, ProcessRepository>();
+
 builder.Services.AddSingleton<IStringLocalizerFactory, JsonStringLocalizerFactory>();
 
 
