@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eSya.ApprovalProcess.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5142f6ef6a28c417f18d83c9cbf9745537a69120")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a12c18bf1ac4caaedb5c55ea3f7fcbb9a8cc2a31")]
 [assembly: System.Reflection.AssemblyProductAttribute("eSya.ApprovalProcess.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eSya.ApprovalProcess.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

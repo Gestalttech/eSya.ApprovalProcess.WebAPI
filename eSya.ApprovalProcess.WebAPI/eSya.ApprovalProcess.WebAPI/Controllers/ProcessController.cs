@@ -28,6 +28,18 @@ namespace eSya.ApprovalProcess.WebAPI.Controllers
             return Ok(ds);
         }
         /// <summary>
+        /// Get Existing Approval Type by FormID.
+        /// UI Reffered - Approval Process, 
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public async Task<IActionResult> GetApprovalTypebyFormID(int businesskey, int formId)
+        {
+            var ds = await _ProcessRepository.GetApprovalTypebyFormID(businesskey, formId);
+            return Ok(ds);
+        }
+        
+        /// <summary>
         /// Get Approval Levels List.
         /// UI Reffered - Approval Process, 
         /// </summary>

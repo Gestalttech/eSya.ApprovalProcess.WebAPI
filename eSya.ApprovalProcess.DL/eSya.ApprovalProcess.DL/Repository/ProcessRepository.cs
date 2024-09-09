@@ -46,12 +46,37 @@ namespace eSya.ApprovalProcess.DL.Repository
                 throw ex;
             }
         }
+        public async Task<DO_ApprovalTypes> GetApprovalTypebyFormID(int businesskey, int formId)
+        {
+            try
+            {
+                using (var db = new eSyaEnterprise())
+                {
+                    var ds = await db.GtEcapvhs.Where(x => x.BusinessKey == businesskey && x.FormId == formId)
+                          .Select(z => new DO_ApprovalTypes
+                          {
+                              ApprovalType = z.ApprovalType
+                              
+                          }
+                        ).FirstOrDefaultAsync();
+                    return ds;
+
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public async Task<List<DO_ApprovalLevels>> GetApprovalLevelsbyCodeType(int codetype,int businesskey,int formId,int approvaltype)
         {
             try
             {
                 using (var db = new eSyaEnterprise())
                 {
+                    //var ds =  db.GtEcapvhs.Where(x => x.BusinessKey == businesskey && x.FormId == formId).FirstOrDefault();
+
                     if (approvaltype == 70001)
                     {
                         var ds = await db.GtEcapcds.Where(x => x.CodeType == codetype && x.ActiveStatus)

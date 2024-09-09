@@ -12,6 +12,7 @@ namespace eSya.ApprovalProcess.IF
     {
         #region Approval Level Based
         Task<List<DO_Forms>> GetFormsForApproval();
+        Task<DO_ApprovalTypes> GetApprovalTypebyFormID(int businesskey, int formId);
         Task<List<DO_ApprovalLevels>> GetApprovalLevelsbyCodeType(int codetype , int businesskey, int formId, int approvaltype);
         Task<DO_ReturnParameter> InsertOrUpdateApprovalLevel(DO_ApprovalTypes obj);
         #endregion
