@@ -25,6 +25,8 @@ namespace eSya.ApprovalProcess.DL.Entities
         public virtual DbSet<GtEcbsln> GtEcbslns { get; set; } = null!;
         public virtual DbSet<GtEcfmfd> GtEcfmfds { get; set; } = null!;
         public virtual DbSet<GtEcfmpa> GtEcfmpas { get; set; } = null!;
+        public virtual DbSet<GtEuusap> GtEuusaps { get; set; } = null!;
+        public virtual DbSet<GtEuusm> GtEuusms { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -223,6 +225,80 @@ namespace eSya.ApprovalProcess.DL.Entities
                     .HasForeignKey(d => d.FormId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_GT_ECFMPA_GT_ECFMFD");
+            });
+
+            modelBuilder.Entity<GtEuusap>(entity =>
+            {
+                entity.HasKey(e => new { e.BusinessKey, e.FormId, e.UserId, e.ApprovalLevel });
+
+                entity.ToTable("GT_EUUSAP");
+
+                entity.Property(e => e.FormId).HasColumnName("FormID");
+
+                entity.Property(e => e.UserId).HasColumnName("UserID");
+
+                entity.Property(e => e.CreatedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.CreatedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
+            });
+
+            modelBuilder.Entity<GtEuusm>(entity =>
+            {
+                entity.HasKey(e => e.UserId);
+
+                entity.ToTable("GT_EUUSMS");
+
+                entity.Property(e => e.UserId)
+                    .ValueGeneratedNever()
+                    .HasColumnName("UserID");
+
+                entity.Property(e => e.CreatedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.CreatedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.DeactivationReason).HasMaxLength(50);
+
+                entity.Property(e => e.EMailId)
+                    .HasMaxLength(50)
+                    .HasColumnName("eMailID");
+
+                entity.Property(e => e.FirstUseByUser).HasColumnType("datetime");
+
+                entity.Property(e => e.FormId)
+                    .HasMaxLength(10)
+                    .IsUnicode(false)
+                    .HasColumnName("FormID");
+
+                entity.Property(e => e.LastActivityDate).HasColumnType("datetime");
+
+                entity.Property(e => e.LastPasswordUpdatedDate).HasColumnType("datetime");
+
+                entity.Property(e => e.LoginAttemptDate).HasColumnType("datetime");
+
+                entity.Property(e => e.LoginDesc).HasMaxLength(50);
+
+                entity.Property(e => e.LoginId)
+                    .HasMaxLength(20)
+                    .HasColumnName("LoginID");
+
+                entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.PhotoUrl)
+                    .HasMaxLength(150)
+                    .IsUnicode(false)
+                    .HasColumnName("PhotoURL");
+
+                entity.Property(e => e.UserAuthenticatedDate).HasColumnType("datetime");
+
+                entity.Property(e => e.UserCreatedOn).HasColumnType("datetime");
+
+                entity.Property(e => e.UserDeactivatedOn).HasColumnType("datetime");
             });
 
             OnModelCreatingPartial(modelBuilder);
