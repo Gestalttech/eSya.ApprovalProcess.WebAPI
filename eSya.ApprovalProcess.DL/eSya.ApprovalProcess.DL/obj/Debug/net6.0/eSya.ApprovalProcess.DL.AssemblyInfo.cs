@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eSya.ApprovalProcess.DL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5384bfe90e77638cd652a463f538a82daa18d87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+829a17c13599c394d8ec49f632c34ffd9ef9869e")]
 [assembly: System.Reflection.AssemblyProductAttribute("eSya.ApprovalProcess.DL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eSya.ApprovalProcess.DL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
